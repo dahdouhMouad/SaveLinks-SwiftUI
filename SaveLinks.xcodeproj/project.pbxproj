@@ -16,6 +16,21 @@
 		5290DE3B2B15223900230184 /* AddLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE3A2B15223900230184 /* AddLinkView.swift */; };
 		5290DE412B162ED600230184 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE402B162ED600230184 /* PersistenceController.swift */; };
 		5290DE442B163BFE00230184 /* LinkCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE422B163BFE00230184 /* LinkCore.xcdatamodeld */; };
+		5290DE482B16509D00230184 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE472B16509D00230184 /* CustomTextField.swift */; };
+		5290DE562B16515E00230184 /* Colfax-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4A2B16515E00230184 /* Colfax-Black.otf */; };
+		5290DE572B16515E00230184 /* Colfax-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4B2B16515E00230184 /* Colfax-Bold.otf */; };
+		5290DE582B16515E00230184 /* Colfax-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4C2B16515E00230184 /* Colfax-Regular.otf */; };
+		5290DE592B16515E00230184 /* Colfax-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4D2B16515E00230184 /* Colfax-Thin.otf */; };
+		5290DE5A2B16515E00230184 /* Colfax-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4E2B16515E00230184 /* Colfax-BlackItalic.otf */; };
+		5290DE5B2B16515E00230184 /* Colfax-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE4F2B16515E00230184 /* Colfax-RegularItalic.otf */; };
+		5290DE5C2B16515E00230184 /* Colfax-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE502B16515E00230184 /* Colfax-MediumItalic.otf */; };
+		5290DE5D2B16515E00230184 /* Colfax-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE512B16515E00230184 /* Colfax-ThinItalic.otf */; };
+		5290DE5E2B16515E00230184 /* Colfax-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE522B16515E00230184 /* Colfax-Light.otf */; };
+		5290DE5F2B16515E00230184 /* Colfax-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE532B16515E00230184 /* Colfax-LightItalic.otf */; };
+		5290DE602B16515E00230184 /* Colfax-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE542B16515E00230184 /* Colfax-BoldItalic.otf */; };
+		5290DE612B16515E00230184 /* Colfax-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE552B16515E00230184 /* Colfax-Medium.otf */; };
+		5290DE642B1653C000230184 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE632B1653C000230184 /* CustomButtonView.swift */; };
+		5290DE662B16571F00230184 /* AddLinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE652B16571F00230184 /* AddLinkViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +44,22 @@
 		5290DE3A2B15223900230184 /* AddLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLinkView.swift; sourceTree = "<group>"; };
 		5290DE402B162ED600230184 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		5290DE432B163BFE00230184 /* LinkCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinkCore.xcdatamodel; sourceTree = "<group>"; };
+		5290DE472B16509D00230184 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		5290DE4A2B16515E00230184 /* Colfax-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Black.otf"; sourceTree = "<group>"; };
+		5290DE4B2B16515E00230184 /* Colfax-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Bold.otf"; sourceTree = "<group>"; };
+		5290DE4C2B16515E00230184 /* Colfax-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Regular.otf"; sourceTree = "<group>"; };
+		5290DE4D2B16515E00230184 /* Colfax-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Thin.otf"; sourceTree = "<group>"; };
+		5290DE4E2B16515E00230184 /* Colfax-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BlackItalic.otf"; sourceTree = "<group>"; };
+		5290DE4F2B16515E00230184 /* Colfax-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-RegularItalic.otf"; sourceTree = "<group>"; };
+		5290DE502B16515E00230184 /* Colfax-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-MediumItalic.otf"; sourceTree = "<group>"; };
+		5290DE512B16515E00230184 /* Colfax-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-ThinItalic.otf"; sourceTree = "<group>"; };
+		5290DE522B16515E00230184 /* Colfax-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Light.otf"; sourceTree = "<group>"; };
+		5290DE532B16515E00230184 /* Colfax-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-LightItalic.otf"; sourceTree = "<group>"; };
+		5290DE542B16515E00230184 /* Colfax-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-BoldItalic.otf"; sourceTree = "<group>"; };
+		5290DE552B16515E00230184 /* Colfax-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Colfax-Medium.otf"; sourceTree = "<group>"; };
+		5290DE622B16520B00230184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5290DE632B1653C000230184 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		5290DE652B16571F00230184 /* AddLinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLinkViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +92,12 @@
 		5290DE232B1514C100230184 /* SaveLinks */ = {
 			isa = PBXGroup;
 			children = (
-				5290DE242B1514C100230184 /* SaveLinksApp.swift */,
+				5290DE622B16520B00230184 /* Info.plist */,
 				5290DE322B1514FD00230184 /* Home */,
+				5290DE452B16508100230184 /* AddLink */,
+				5290DE242B1514C100230184 /* SaveLinksApp.swift */,
 				5290DE282B1514C400230184 /* Assets.xcassets */,
+				5290DE492B1650D600230184 /* Fonts */,
 				5290DE2A2B1514C400230184 /* Preview Content */,
 				5290DE422B163BFE00230184 /* LinkCore.xcdatamodeld */,
 			);
@@ -93,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				5290DE262B1514C100230184 /* HomeView.swift */,
-				5290DE3A2B15223900230184 /* AddLinkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +153,52 @@
 				5290DE402B162ED600230184 /* PersistenceController.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		5290DE452B16508100230184 /* AddLink */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE462B16508C00230184 /* Views */,
+				5290DE672B16572600230184 /* ViewModel */,
+			);
+			path = AddLink;
+			sourceTree = "<group>";
+		};
+		5290DE462B16508C00230184 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE3A2B15223900230184 /* AddLinkView.swift */,
+				5290DE472B16509D00230184 /* CustomTextField.swift */,
+				5290DE632B1653C000230184 /* CustomButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5290DE492B1650D600230184 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE4A2B16515E00230184 /* Colfax-Black.otf */,
+				5290DE4E2B16515E00230184 /* Colfax-BlackItalic.otf */,
+				5290DE4B2B16515E00230184 /* Colfax-Bold.otf */,
+				5290DE542B16515E00230184 /* Colfax-BoldItalic.otf */,
+				5290DE522B16515E00230184 /* Colfax-Light.otf */,
+				5290DE532B16515E00230184 /* Colfax-LightItalic.otf */,
+				5290DE552B16515E00230184 /* Colfax-Medium.otf */,
+				5290DE502B16515E00230184 /* Colfax-MediumItalic.otf */,
+				5290DE4C2B16515E00230184 /* Colfax-Regular.otf */,
+				5290DE4F2B16515E00230184 /* Colfax-RegularItalic.otf */,
+				5290DE4D2B16515E00230184 /* Colfax-Thin.otf */,
+				5290DE512B16515E00230184 /* Colfax-ThinItalic.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5290DE672B16572600230184 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE652B16571F00230184 /* AddLinkViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +259,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5290DE5C2B16515E00230184 /* Colfax-MediumItalic.otf in Resources */,
+				5290DE612B16515E00230184 /* Colfax-Medium.otf in Resources */,
+				5290DE602B16515E00230184 /* Colfax-BoldItalic.otf in Resources */,
+				5290DE5D2B16515E00230184 /* Colfax-ThinItalic.otf in Resources */,
+				5290DE582B16515E00230184 /* Colfax-Regular.otf in Resources */,
+				5290DE5B2B16515E00230184 /* Colfax-RegularItalic.otf in Resources */,
 				5290DE2C2B1514C400230184 /* Preview Assets.xcassets in Resources */,
+				5290DE572B16515E00230184 /* Colfax-Bold.otf in Resources */,
+				5290DE5E2B16515E00230184 /* Colfax-Light.otf in Resources */,
+				5290DE562B16515E00230184 /* Colfax-Black.otf in Resources */,
+				5290DE5A2B16515E00230184 /* Colfax-BlackItalic.otf in Resources */,
+				5290DE5F2B16515E00230184 /* Colfax-LightItalic.otf in Resources */,
 				5290DE292B1514C400230184 /* Assets.xcassets in Resources */,
+				5290DE592B16515E00230184 /* Colfax-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,10 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5290DE662B16571F00230184 /* AddLinkViewModel.swift in Sources */,
 				5290DE392B15169A00230184 /* LinksViewModel.swift in Sources */,
 				5290DE412B162ED600230184 /* PersistenceController.swift in Sources */,
 				5290DE372B1515C600230184 /* Link.swift in Sources */,
+				5290DE642B1653C000230184 /* CustomButtonView.swift in Sources */,
 				5290DE272B1514C100230184 /* HomeView.swift in Sources */,
+				5290DE482B16509D00230184 /* CustomTextField.swift in Sources */,
 				5290DE442B163BFE00230184 /* LinkCore.xcdatamodeld in Sources */,
 				5290DE3B2B15223900230184 /* AddLinkView.swift in Sources */,
 				5290DE252B1514C100230184 /* SaveLinksApp.swift in Sources */,
@@ -330,6 +424,7 @@
 				DEVELOPMENT_TEAM = 73U7Z45XKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaveLinks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -359,6 +454,7 @@
 				DEVELOPMENT_TEAM = 73U7Z45XKZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SaveLinks/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

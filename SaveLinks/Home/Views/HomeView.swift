@@ -24,17 +24,13 @@ struct HomeView: View {
                     Spacer(minLength: 0)
                     
                     Button {
-                        //addLinkPresented.toggle()
-                        let title = "Google"
-                        let url = URL(string: "https://www.google.com")!
-                        viewModel.addLink(title: title, link: url)
+                        addLinkPresented.toggle()
                         
                     } label: {
                         Image(systemName: "plus.circle")
                             .font(.title)
                             .tint(.white)
                     }
-            
                 }
                 .padding(EdgeInsets(top: 0, leading: 12, bottom: 0, trailing: 12))
                 .background(
@@ -91,6 +87,9 @@ struct HomeView: View {
                     }
                 }
                 .listStyle(.plain)
+            }
+            .onAppear {
+                viewModel.getAllLinksInDb()
             }
             .navigationDestination(isPresented: $addLinkPresented) {
                 AddLinkView()
