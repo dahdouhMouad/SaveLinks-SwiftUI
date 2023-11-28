@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		5290DE252B1514C100230184 /* SaveLinksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE242B1514C100230184 /* SaveLinksApp.swift */; };
-		5290DE272B1514C100230184 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE262B1514C100230184 /* ContentView.swift */; };
+		5290DE272B1514C100230184 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE262B1514C100230184 /* HomeView.swift */; };
 		5290DE292B1514C400230184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE282B1514C400230184 /* Assets.xcassets */; };
 		5290DE2C2B1514C400230184 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5290DE2B2B1514C400230184 /* Preview Assets.xcassets */; };
+		5290DE372B1515C600230184 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE362B1515C600230184 /* Link.swift */; };
+		5290DE392B15169A00230184 /* LinksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE382B15169A00230184 /* LinksViewModel.swift */; };
+		5290DE3B2B15223900230184 /* AddLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE3A2B15223900230184 /* AddLinkView.swift */; };
+		5290DE412B162ED600230184 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE402B162ED600230184 /* PersistenceController.swift */; };
+		5290DE442B163BFE00230184 /* LinkCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5290DE422B163BFE00230184 /* LinkCore.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5290DE212B1514C100230184 /* SaveLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5290DE242B1514C100230184 /* SaveLinksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveLinksApp.swift; sourceTree = "<group>"; };
-		5290DE262B1514C100230184 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5290DE262B1514C100230184 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5290DE282B1514C400230184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5290DE2B2B1514C400230184 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5290DE362B1515C600230184 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		5290DE382B15169A00230184 /* LinksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewModel.swift; sourceTree = "<group>"; };
+		5290DE3A2B15223900230184 /* AddLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLinkView.swift; sourceTree = "<group>"; };
+		5290DE402B162ED600230184 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		5290DE432B163BFE00230184 /* LinkCore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinkCore.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				5290DE242B1514C100230184 /* SaveLinksApp.swift */,
-				5290DE262B1514C100230184 /* ContentView.swift */,
+				5290DE322B1514FD00230184 /* Home */,
 				5290DE282B1514C400230184 /* Assets.xcassets */,
 				5290DE2A2B1514C400230184 /* Preview Content */,
+				5290DE422B163BFE00230184 /* LinkCore.xcdatamodeld */,
 			);
 			path = SaveLinks;
 			sourceTree = "<group>";
@@ -65,6 +76,50 @@
 				5290DE2B2B1514C400230184 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5290DE322B1514FD00230184 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE3F2B162EC200230184 /* Services */,
+				5290DE342B15153C00230184 /* Models */,
+				5290DE352B15154700230184 /* ViewModels */,
+				5290DE332B15153300230184 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5290DE332B15153300230184 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE262B1514C100230184 /* HomeView.swift */,
+				5290DE3A2B15223900230184 /* AddLinkView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5290DE342B15153C00230184 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE362B1515C600230184 /* Link.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5290DE352B15154700230184 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE382B15169A00230184 /* LinksViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5290DE3F2B162EC200230184 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5290DE402B162ED600230184 /* PersistenceController.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5290DE272B1514C100230184 /* ContentView.swift in Sources */,
+				5290DE392B15169A00230184 /* LinksViewModel.swift in Sources */,
+				5290DE412B162ED600230184 /* PersistenceController.swift in Sources */,
+				5290DE372B1515C600230184 /* Link.swift in Sources */,
+				5290DE272B1514C100230184 /* HomeView.swift in Sources */,
+				5290DE442B163BFE00230184 /* LinkCore.xcdatamodeld in Sources */,
+				5290DE3B2B15223900230184 /* AddLinkView.swift in Sources */,
 				5290DE252B1514C100230184 /* SaveLinksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +399,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5290DE422B163BFE00230184 /* LinkCore.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5290DE432B163BFE00230184 /* LinkCore.xcdatamodel */,
+			);
+			currentVersion = 5290DE432B163BFE00230184 /* LinkCore.xcdatamodel */;
+			path = LinkCore.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5290DE192B1514C100230184 /* Project object */;
 }
